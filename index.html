@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ML4HEAT - Home</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+	    <div class="layout" id="home">
+	      <aside class="sidebar" aria-label="Site sidebar">
+	        <div class="sidebar-inner">
+	          <a class="sidebar-logo-link" href="#home" aria-label="ML4HEAT home">
+	            <div class="sidebar-wordmark" aria-hidden="true">
+	              <span>M</span><span>L</span><span class="sidebar-wordmark-accent">4</span><span>H</span><span>E</span><span>A</span><span>T</span>
+	            </div>
+	          </a>
+	          <div class="sidebar-banner" aria-label="MURI title">
+	            <div class="sidebar-banner-title">
+	              FUNDAMENTALS OF <span class="sidebar-banner-emph">MACHINE LEARNING</span> FOR PHASE CHANGE HEAT TRANSFER
+	            </div>
+	            <div class="sidebar-banner-kicker">MULTI-UNIVERSITY RESEARCH INITIATIVE</div>
+	          </div>
+	          <h1 class="sidebar-title visually-hidden">ML4HEAT</h1>
+
+	          <nav class="sidebar-nav" aria-label="Section navigation">
+	            <a href="#home">Home</a>
+	            <a href="#research">About</a>
+	            <a href="#group">Group</a>
+	            <a href="#media">News</a>
+	            <a href="#research-work">Research</a>
+	            <a href="#talks">Talks</a>
+	            <a href="#publications">Products</a>
+	          </nav>
+
+	          <div class="icon-links" aria-label="Profile links">
+	            <a
+	              class="icon-link"
+	              href="https://www.linkedin.com/groups/14712121"
+	              target="_blank"
+	              rel="noopener noreferrer"
+	              aria-label="LinkedIn"
+	            >
+	              <svg viewBox="0 0 24 24" width="20" height="20" role="img" aria-hidden="true" focusable="false">
+	                <path
+	                  fill="currentColor"
+	                  d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5ZM.5 23.5h4V7.98h-4V23.5Zm7 0h4v-8.46c0-4.7 6-5.08 6 0v8.46h4V13.9c0-7.52-8.17-7.24-10-3.54V7.98h-4V23.5Z"
+	                />
+	              </svg>
+	            </a>
+	            <a
+	              class="icon-link"
+	              href="https://www.youtube.com/@yoonjinwon893/videos"
+	              target="_blank"
+	              rel="noopener noreferrer"
+	              aria-label="YouTube"
+	            >
+	              <svg viewBox="0 0 24 24" width="20" height="20" role="img" aria-hidden="true" focusable="false">
+	                <path
+	                  fill="currentColor"
+	                  d="M23.5 6.2a3.02 3.02 0 0 0-2.12-2.14C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.38.56A3.02 3.02 0 0 0 .5 6.2 31.3 31.3 0 0 0 0 12a31.3 31.3 0 0 0 .5 5.8 3.02 3.02 0 0 0 2.12 2.14c1.88.56 9.38.56 9.38.56s7.5 0 9.38-.56a3.02 3.02 0 0 0 2.12-2.14A31.3 31.3 0 0 0 24 12a31.3 31.3 0 0 0-.5-5.8ZM9.75 15.5V8.5l6 3.5-6 3.5Z"
+	                />
+	              </svg>
+	            </a>
+	            <a
+	              class="icon-link"
+	              href="https://docs.google.com/spreadsheets/d/1yc2hJhB8ctnv8uXwUvNqE2A8hvOCoD9GxjoxXMw-uqE/edit?usp=sharing"
+	              target="_blank"
+	              rel="noopener noreferrer"
+	              aria-label="Google Sheets"
+	            >
+	              <svg viewBox="0 0 24 24" width="20" height="20" role="img" aria-hidden="true" focusable="false">
+	                <path
+	                  fill="currentColor"
+	                  d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 1.5V8h4.5L14 3.5ZM7.5 11h9a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5Zm.5 2v1.25H11V13H8Zm4 0v1.25h3V13h-3Zm-4 2.25v1.25H11v-1.25H8Zm4 0v1.25h3v-1.25h-3Z"
+	                />
+	              </svg>
+	            </a>
+	            <a class="icon-link" href="mailto:won@uci.edu" aria-label="Email">
+	              <svg viewBox="0 0 24 24" width="20" height="20" role="img" aria-hidden="true" focusable="false">
+	                <path
+	                  fill="currentColor"
+	                  d="M3 5.5A2.5 2.5 0 0 1 5.5 3h13A2.5 2.5 0 0 1 21 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 18.5v-13Zm2 .5v.34l7 5.25 7-5.25V6h-14Zm14 2.84-6.4 4.8a1 1 0 0 1-1.2 0L5 8.84V18a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8.84Z"
+	                />
+	              </svg>
+	            </a>
+	          </div>
+
+	          <div class="sidebar-supported" aria-label="Supporter">
+	            <a href="https://www.onr.navy.mil" target="_blank" rel="noopener noreferrer" aria-label="Office of Naval Research (ONR)">
+	              <img
+	                class="sidebar-supported-logo"
+	                src="https://upload.wikimedia.org/wikipedia/commons/2/29/Office_of_Naval_Research_Official_Logo.png"
+	                alt="Office of Naval Research (ONR) logo"
+	                loading="lazy"
+	              />
+	            </a>
+	            <div class="sidebar-supported-text">
+	              The authors gratefully acknowledge funding support from the Office of Naval Research (ONR), with Dr. Mark
+	              Spector and Dr. Julie Young serving as the program officer, under MURI N00014-24-1-2575
+	            </div>
+	          </div>
+	        </div>
+	      </aside>
+
+      <main class="content">
+			      <section class="section" id="research">
+			        <h2>About</h2>
+		        <p>
+			          Our ML4HEAT aims to enable a new fundamental understanding of phase change mechanisms by investigating long-standing scientific questions. The research will develop an intelligent framework for liquid-vapor phase change physics that integrates advanced metrology with state-of-the-art computer vision (CV) and machine learning (ML) models. The key innovations of the proposed framework are to effectively assemble, interpret, and translate the multimodal, multidimensional, and transient datasets to fully describe the multiphysics nature of phase change heat transfer mechanisms which govern two-phase flows. By learning physics-based priors, the framework will be generalizable, scalable, and explainable, enabling the interpretation of phase change mechanisms for a variety of fluids, flow conditions, and geometries. The advances in phenomenological investigations of complex two-phase flows will advance our understanding about two-phase heat transfer physics and develop new theoretical two-phase frameworks. The research will result in new capabilities for understanding, designing, and operating efficient thermal management systems for Navy power and energy applications. The team consists of researchers from <a href="https://www.uci.edu" target="_blank" rel="noopener noreferrer">the University of California, Irvine (UCI)</a>, <a href="https://www.stanford.edu" target="_blank" rel="noopener noreferrer">Stanford University (Stanford)</a>, <a href="https://illinois.edu" target="_blank" rel="noopener noreferrer">the University of Illinois Urbana-Champaign (UIUC)</a>, and <a href="https://www.mit.edu" target="_blank" rel="noopener noreferrer">the Massachusetts Institute of Technology (MIT)</a>. Our interdisciplinary team has expertise in two-phase flow physics, metrology and experiments, design innovations, CV, and ML for thermofluidic science, and scalable ML models.
+			        </p>
+			      </section>
+
+		      <section class="section" id="group">
+		        <h2>Group</h2>
+		        <h3>Investigators</h3>
+			        <div class="columns investigators">
+			          <ul>
+				            <li>
+				              <a class="person" href="https://yoonjinwon.github.io/yoonjinwon-site" target="_blank" rel="noopener noreferrer">
+				                <span class="person-thumb" aria-hidden="true">
+				                  <img src="assets/won.jpg" alt="" loading="lazy" />
+				                </span>
+				                <span class="person-name">Yoonjin Won</span>
+					                <span class="person-title">Director of MURI ML4HEAT, Professor, Mechanical and Aerospace Engineering, UC Irvine</span>
+				              </a>
+				            </li>
+					            <li>
+					              <a class="person" href="https://jiajunwu.com" target="_blank" rel="noopener noreferrer">
+					                <span class="person-thumb" aria-hidden="true">
+					                  <img
+					                    src="https://aimi.stanford.edu/sites/g/files/sbiybj20451/files/styles/large_square/public/media/image/jiajun_wu1_0.jpeg?h=7abcc85d&itok=B40zSAXP"
+					                    alt=""
+					                    loading="lazy"
+					                    onerror="this.replaceWith(document.createTextNode('JW'));"
+					                  />
+					                </span>
+					                <span class="person-name">Jiajun Wu</span>
+					                <span class="person-title">Assistant Professor, Computer Science, Stanford University</span>
+					              </a>
+					            </li>
+					            <li>
+					              <a class="person" href="https://etrl.mechanical.illinois.edu" target="_blank" rel="noopener noreferrer">
+					                <span class="person-thumb" aria-hidden="true">
+					                  <img
+					                    src="https://ws.engr.illinois.edu/directory/viewphoto.aspx?photo=16649&s=300"
+					                    alt=""
+					                    loading="lazy"
+					                    onerror="this.replaceWith(document.createTextNode('NM'));"
+					                  />
+					                </span>
+					                <span class="person-name">Nenad Miljkovic</span>
+						                <span class="person-title">Professor, Mechanical Science and Engineering, UIUC</span>
+					              </a>
+					            </li>
+			          </ul>
+			          <ul>
+					            <li>
+					              <a class="person" href="https://bucci.mit.edu" target="_blank" rel="noopener noreferrer">
+					                <span class="person-thumb" aria-hidden="true">
+					                  <img
+					                    src="https://bucci.mit.edu/wp-content/uploads/2018/03/large_headshot_Matteo_Bucci_2021.jpg"
+					                    alt=""
+					                    loading="lazy"
+					                    onerror="this.replaceWith(document.createTextNode('MB'));"
+					                  />
+					                </span>
+					                <span class="person-name">Matteo Bucci</span>
+					                <span class="person-title">Associate Professor, Nuclear Science and Engineering, MIT</span>
+					              </a>
+					            </li>
+					            <li>
+					              <a class="person" href="https://kinglab.mechse.illinois.edu" target="_blank" rel="noopener noreferrer">
+					                <span class="person-thumb" aria-hidden="true">
+					                  <img
+					                    src="https://kinglab.mechse.illinois.edu/files/2022/02/WPK-photo-2021-cropped-930x1024.png"
+					                    alt=""
+					                    loading="lazy"
+					                    onerror="this.replaceWith(document.createTextNode('WK'));"
+					                  />
+					                </span>
+					                <span class="person-name">William King</span>
+						                <span class="person-title">Professor, Mechanical Science and Engineering, UIUC</span>
+					              </a>
+					            </li>
+					            <li>
+					              <a class="person" href="https://hpcforge.eng.uci.edu" target="_blank" rel="noopener noreferrer">
+					                <span class="person-thumb" aria-hidden="true">
+					                  <img
+					                    src="https://hpcforge.eng.uci.edu/authors/aparna/avatar_hua56647b4d0e22d4236d5ff14dfc2d6f9_47121_270x270_fill_q90_lanczos_center.jpg"
+					                    alt=""
+					                    loading="lazy"
+					                    onerror="this.replaceWith(document.createTextNode('AC'));"
+					                  />
+					                </span>
+					                <span class="person-name">Aparna Chandramowlishwaran</span>
+					                <span class="person-title">Associate Professor, Electrical Engineering and Computer Science, UC Irvine</span>
+					              </a>
+					            </li>
+			          </ul>
+			        </div>
+
+					        <h3>Group Members</h3>
+					        <div class="columns columns-3">
+					          <ul>
+					            <li><a href="#">Isabel K Alvarez</a></li>
+					            <li><a href="#">Alireza Bakhshi</a></li>
+					            <li><a href="#">Sanghyeon Chang</a></li>
+					            <li><a href="#">Tom Fu</a></li>
+					          </ul>
+					          <ul>
+					            <li><a href="#">Yue Gao</a></li>
+					            <li><a href="#">Shakeel Hassan</a></li>
+					            <li><a href="#">Wonjun Jung</a></li>
+					          </ul>
+					          <ul>
+					            <li><a href="#">Ganesan Vishwanath</a></li>
+					            <li><a href="#">Koven Yu</a></li>
+					            <li><a href="#">Xiaojing Zhang</a></li>
+					            <li><a href="#">Xianwei Zou</a></li>
+				          </ul>
+				        </div>
+
+			        <h3>Alumni</h3>
+			        <ul class="alumni-list">
+			          <li><a href="https://me.engin.umich.edu/people/faculty/matthew-hughes/" target="_blank" rel="noopener noreferrer">Matthew Hughes</a> (Postdoc 2025) - Assistant Professor, University of Michigan</li>
+			          <li><a href="https://www.linkedin.com/in/youngjoon-suh-phd-3a77381b2/" target="_blank" rel="noopener noreferrer">Youngjoon Suh</a> (PhD 2023, Postdoc 2025) - Assistant Professor, University of Illinois Chicago</li>
+			        </ul>
+
+			        <h3>Collaborators</h3>
+			        <ul class="alumni-list">
+			          <li><a href="https://navynuclearlab.energy.gov/" target="_blank" rel="noopener noreferrer">Navy Nuclear Laboratory (NNL)</a></li>
+			          <li><a href="https://arl.devcom.army.mil/" target="_blank" rel="noopener noreferrer">Army Research Lab (ARL)</a></li>
+			          <li><a href="https://www.erdc.usace.army.mil/Locations/CERL/" target="_blank" rel="noopener noreferrer">Army Construction Engineering Research Laboratory (CERL)</a></li>
+			          <li><a href="https://www.usna.edu/" target="_blank" rel="noopener noreferrer">United States Naval Academy (USNA)</a></li>
+			          <li><a href="https://www.anl.gov/" target="_blank" rel="noopener noreferrer">Argonne National Laboratory (ANL)</a></li>
+			          <li><a href="https://www.nvidia.com/" target="_blank" rel="noopener noreferrer">NVIDIA</a></li>
+			          <li><a href="https://www.rtx.com/raytheon" target="_blank" rel="noopener noreferrer">Raytheon</a></li>
+			          <li><a href="https://www.northropgrumman.com/" target="_blank" rel="noopener noreferrer">Northrop Grumman</a></li>
+			        </ul>
+		      </section>
+
+		      <section class="section" id="media">
+		        <div class="pub-header">
+		          <h2>News</h2>
+		        </div>
+		        <noscript>
+		          <p class="muted">Enable JavaScript to see preview cards.</p>
+		        </noscript>
+
+		        <div class="media-carousel" aria-label="News carousel">
+		          <button class="media-carousel-btn is-prev" type="button" id="media-prev" aria-label="Previous news">
+		            &lt;
+		          </button>
+		          <button class="media-carousel-btn is-next" type="button" id="media-next" aria-label="Next news">
+		            &gt;
+		          </button>
+
+		          <div id="media-grid" class="media-grid" aria-live="polite">
+		            <a
+		              class="media-card"
+		              href="https://engineering.uci.edu/news/2024/5/uci-led-team-selected-department-defense-multi-university-initiative-investigating"
+		              target="_blank"
+		              rel="noopener noreferrer"
+		            >
+		              <div class="media-card-image">
+		                <img src="https://engineering.uci.edu/files/won_reduced.jpg" alt="" loading="lazy" />
+		              </div>
+		              <div class="media-card-body">
+		                <div class="media-card-kicker">
+		                  <img
+		                    class="media-favicon"
+		                    src="https://www.google.com/s2/favicons?domain=engineering.uci.edu&sz=64"
+		                    alt=""
+		                    aria-hidden="true"
+		                  />
+		                  <span>UCI Engineering</span>
+		                </div>
+		                <div class="media-card-title">
+		                  UCI-led team selected for Department of Defense multi-university initiative
+		                </div>
+		              </div>
+		            </a>
+
+		            <a
+		              class="media-card"
+		              href="https://youtu.be/GLsC6FM6viY"
+		              target="_blank"
+		              rel="noopener noreferrer"
+		            >
+		              <div class="media-card-image">
+		                <img src="https://i.ytimg.com/vi/GLsC6FM6viY/hqdefault.jpg" alt="" loading="lazy" />
+		              </div>
+		              <div class="media-card-body">
+		                <div class="media-card-kicker">
+		                  <img
+		                    class="media-favicon"
+		                    src="https://www.google.com/s2/favicons?domain=youtube.com&sz=64"
+		                    alt=""
+		                    aria-hidden="true"
+		                  />
+		                  <span>YouTube</span>
+		                </div>
+		                <div class="media-card-title">YouTube video</div>
+		              </div>
+		            </a>
+
+		            <a class="media-card" href="assets/media/adv_science.mov" target="_blank" rel="noopener noreferrer">
+		              <div class="media-card-image">
+		                <video
+		                  src="assets/media/adv_science.mov"
+		                  preload="metadata"
+		                  muted
+		                  autoplay
+		                  loop
+		                  playsinline
+		                ></video>
+		              </div>
+		              <div class="media-card-body">
+		                <div class="media-card-kicker">
+		                  <img
+		                    class="media-favicon"
+		                    src="https://www.google.com/s2/favicons?domain=advancescience.com&sz=64"
+		                    alt=""
+		                    aria-hidden="true"
+		                  />
+		                  <span>Advanced Science</span>
+		                </div>
+		                <div class="media-card-title">Featured video</div>
+		              </div>
+		            </a>
+		          </div>
+		        </div>
+				      </section>
+
+			      <section class="section" id="research-work">
+			        <h2>Research</h2>
+			        <figure class="research-figure">
+			          <img
+			            src="assets/ml4heat.jpg"
+			            alt="ML4HEAT research pillars: metrology and dataset generation; multimodal and 4D data interpretation; integrated scientific machine learning."
+			            loading="lazy"
+			          />
+			        </figure>
+
+			        <div class="research-pillars">
+			          <div class="research-pillar">
+			            <h3>High-Fidelity Metrology and Dataset Generation</h3>
+			            <p>
+			              To anchor our research in physical reality, our team will deploy state-of-the-art metrology to
+			              capture interconnected, multiphysics phenomena. By merging advanced imaging techniques with
+			              numerical sensor data, we will build the most extensive database of two-phase flows across diverse
+			              surfaces and fluids. These high-fidelity datasets—categorized into training, testing, and
+			              ground-truth sets—will leverage our existing data repositories to immediately establish robust
+			              knowledge pipelines for model development.
+			            </p>
+			          </div>
+
+			          <div class="research-pillar">
+			            <h3>Multimodal and 4D Data Interpretation</h3>
+			            <p>
+			              Current understanding of two-phase heat transfer is often bottlenecked by sparse sensor data and
+			              static 2D imagery. We will overcome this by using advanced computer vision (CV) to digitize and
+			              assemble multimodal features into a coherent 4D framework (3D space + time). Our CV strategy
+			              focuses on four key capabilities: recognizing phase boundaries (bubbles, films, droplets),
+			              classifying nucleation and wetting states, reconstructing 4D flow fields from multiview inputs, and
+			              generating predictive forecasts of transient flow dynamics.
+			            </p>
+			          </div>
+
+			          <div class="research-pillar">
+			            <h3>Integrated Scientific Machine Learning</h3>
+			            <p>
+			              We will develop explainable and scalable ML models that synthesize physical governing equations
+			              with visual and sensor data. By embedding domain knowledge and first-principle constraints directly
+			              into the learning process, our models will remain generalizable across varying geometries,
+			              orientations, and fluids. This integrated approach allows us to translate multidimensional datasets
+			              into actionable physical descriptions—such as local pressure and velocity fields—to ultimately
+			              establish theoretical frameworks for predicting boiling curves, HTC distributions, and CHF limits.
+			            </p>
+			          </div>
+			        </div>
+
+			        <h3>Potential Impact on DoD Applications</h3>
+			        <p class="research-impact-text">
+			          Two-phase heat transfer is critical for a variety of Navy and DoD systems, and there is a need to
+			          design next-generation thermal systems that are efficient, compact, and resilient. The Navy extensively
+			          uses two-phase systems for energy conversion (evaporators and condensers in air conditioning and
+			          refrigeration), power generation (nuclear reactors), and thermal management. The Navy anticipates
+			          increasing electrification of systems across Navy ships and air vehicles that will extensively use power
+			          electronics and electrical storage. Specific examples of high-power devices requiring thermal management
+			          include phased-array radar, electronic warfare systems, directed energy weapons, and the electromagnetic
+			          railgun. The work proposed here will have a direct impact on both large-scale DoD thermal systems, as
+			          well as smaller scale distributed DoD compact thermal management approaches. The better understanding
+			          about nucleation heat transfer performances as well as the design of effective two-phase flows will allow
+			          for highly compact condensers and evaporators that can be deployed in naval applications.
+			        </p>
+
+			        <figure class="research-figure research-figure-secondary">
+			          <picture>
+			            <source srcset="assets/research-pillars.jpg" type="image/jpeg" />
+			            <img
+			              src="assets/research-pillars.jpg"
+			              alt="Research pillars: high-fidelity metrology and dataset generation; multimodal and 4D data interpretation; integrated scientific machine learning."
+			              loading="lazy"
+			              onerror="this.closest('figure').outerHTML='<p class=&quot;muted&quot;>Missing image: <code>assets/research-pillars.jpg</code>.</p>';"
+			            />
+			          </picture>
+			        </figure>
+			      </section>
+
+		      <section class="section" id="talks">
+	        <div class="pub-header">
+	          <h2>Talks</h2>
+	          <div class="pub-controls talks-controls" role="group" aria-label="Talk view">
+	            <button class="pub-toggle talks-toggle is-active" type="button" data-mode="selected" aria-pressed="true">
+	              Show recent
+	            </button>
+	            <button class="pub-toggle talks-toggle" type="button" data-mode="date" aria-pressed="false">
+	              Show all by date
+	            </button>
+	            <button class="pub-toggle talks-toggle" type="button" data-mode="author" aria-pressed="false">
+	              Show all by author
+	            </button>
+	          </div>
+	        </div>
+
+	        <nav class="talks-nav pub-nav" aria-label="Talk author filters" hidden></nav>
+
+        <div class="talk-content pub-content" aria-live="polite">
+	          <div id="talks-all" class="talks-view talks-view-all" hidden>
+	            <ul class="talks">
+	              <li>
+	                <span class="talk-date">06/2026</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Conference chair <span class="chip">Bucci</span></div>
+	                  <div class="talk-details">Boiling and Condensation, June 2026</div>
+	                </span>
+	              </li>
+	              <li>
+	                <span class="talk-date">09/2025</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Fundamentals of Machine Learning for Phase Change Heat Transfer <span class="chip">Won</span></div>
+                  <div class="talk-details">2025 UCI-TAU Conference, 2025, invited speaker</div>
+                </span>
+              </li>
+	              <li>
+	                <span class="talk-date">08/2025</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Fundamentals of Machine Learning for Phase Change Heat Transfer <span class="chip">Won</span></div>
+                  <div class="talk-details">The 11th World Conference on Experimental Heat Transfer, Fluid Mechanics and Thermodynamics (ExHFT-11), Virtual, August 15-18, 2025, invited keynote speaker</div>
+                </span>
+              </li>
+	              <li>
+	                <span class="talk-date">08/2025</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Fundamentals of Machine Learning for Phase Change Heat Transfer <span class="chip">Won</span></div>
+                  <div class="talk-details">Mini-Workshop, Choong-Ang University, Aug 2025. Hosted by Prof. Hyoungsoon Lee.</div>
+                </span>
+              </li>
+	              <li>
+	                <span class="talk-date">08/2025</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Invited talk <span class="chip">Miljkovic</span></div>
+	                  <div class="talk-details">Korea Data Center Workshop, Aug 2025</div>
+	                </span>
+	              </li>
+	              <li>
+	                <span class="talk-date">08/2025</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Keynote presentation <span class="chip">Bucci</span></div>
+	                  <div class="talk-details">2025 ExHFT conference (online), Aug 2025</div>
+	                </span>
+	              </li>
+	              <li>
+	                <span class="talk-date">08/2025</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Machine Learning Applications in Two-Phase Heat Transfer for Advanced Thermal Management <span class="chip">Won</span></div>
+                  <div class="talk-details">International Seminar on Thermal Management in High-Density Data Centers, Seoul, South Korea, August 11-12 2025, invited speaker</div>
+                </span>
+              </li>
+	              <li>
+	                <span class="talk-date">06/2025</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Fundamentals of Machine Learning for Phase Change Heat Transfer <span class="chip">Won</span></div>
+                  <div class="talk-details">IIR Conference on Thermophysical Properties and Transport Processes of Refrigerants (TPTPR), the University of Maryland, June 15-18, 2025, invited panel speaker</div>
+                </span>
+              </li>
+	              <li>
+	                <span class="talk-date">06/2025</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Learning from Complexity: Machine Learning for Two-Phase Heat Transfer <span class="chip">Won</span></div>
+                  <div class="talk-details">Micro Flow and Interfacial Phenomena (µFIP), June 2025, Santa Babara, CA, invited keynote speaker</div>
+                </span>
+              </li>
+	              <li>
+	                <span class="talk-date">04/2025</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Invited talk <span class="chip">Chandramowlishwaran</span></div>
+	                  <div class="talk-details">Sandia National Lab, April 2025</div>
+	                </span>
+	              </li>
+	              <li>
+	                <span class="talk-date">04/2025</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Invited talk <span class="chip">Chandramowlishwaran</span></div>
+	                  <div class="talk-details">Los Alamos National Lab, April 2025</div>
+	                </span>
+	              </li>
+	              <li>
+	                <span class="talk-date">01/2025</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Keynote presentation <span class="chip">Wu</span></div>
+	                  <div class="talk-details">2025 Gordon Research Conference, Jan 2025</div>
+	                </span>
+	              </li>
+	              <li>
+	                <span class="talk-date">01/2025</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Conference chair <span class="chip">Miljkovic</span></div>
+	                  <div class="talk-details">2025 Gordon Research Conference, Jan 2025</div>
+	                </span>
+	              </li>
+		              <li>
+		                <span class="talk-date">02/2025</span>
+		                <span class="talk-text">
+		                  <div class="talk-title">Applications of Machine Learning for Phase Change Heat Transfer <span class="chip">Won</span></div>
+	                  <div class="talk-details">ASME SHTC 2024, Feb. 2025, ASHRAE Winter Conference, Feb 4-8, Orlando, Florida, invited panel speaker</div>
+	                </span>
+	              </li>
+	              <li>
+	                <span class="talk-date">11/2024</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Keynote Lecture <span class="chip">Bucci</span></div>
+	                  <div class="talk-details">20th Brazilian Congress of Thermal Sciences and Engineering, Brazil, Nov 2024</div>
+	                </span>
+	              </li>
+	              <li>
+	                <span class="talk-date">09/2024</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Keynote Lecture <span class="chip">Bucci</span></div>
+	                  <div class="talk-details">UK Heat Transfer Conference, Sep 2024</div>
+	                </span>
+	              </li>
+	              <li>
+	                <span class="talk-date">06/2024</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Plenary Lecture <span class="chip">Bucci</span></div>
+	                  <div class="talk-details">EUROTHERM in Slovenia, Jun 2024</div>
+	                </span>
+	              </li>
+	            </ul>
+	          </div>
+
+	          <div id="talks-author" class="talks-view talks-view-author" hidden></div>
+
+	          <div id="talks-recent" class="talks-view talks-view-recent">
+	            <ul class="talks">
+	              <li>
+	                <span class="talk-date">06/2026</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Conference chair <span class="chip">Bucci</span></div>
+	                  <div class="talk-details">Boiling and Condensation, June 2026</div>
+	                </span>
+	              </li>
+	              <li>
+	                <span class="talk-date">09/2025</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Fundamentals of Machine Learning for Phase Change Heat Transfer <span class="chip">Won</span></div>
+                  <div class="talk-details">2025 UCI-TAU Conference, 2025, invited speaker</div>
+                </span>
+              </li>
+	              <li>
+	                <span class="talk-date">08/2025</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Invited talk <span class="chip">Miljkovic</span></div>
+	                  <div class="talk-details">Korea Data Center Workshop, Aug 2025</div>
+	                </span>
+	              </li>
+	              <li>
+	                <span class="talk-date">08/2025</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Keynote presentation <span class="chip">Bucci</span></div>
+	                  <div class="talk-details">2025 ExHFT conference (online), Aug 2025</div>
+	                </span>
+	              </li>
+	              <li>
+	                <span class="talk-date">04/2025</span>
+	                <span class="talk-text">
+	                  <div class="talk-title">Invited talk <span class="chip">Chandramowlishwaran</span></div>
+	                  <div class="talk-details">Sandia National Lab, April 2025</div>
+	                </span>
+	              </li>
+	            </ul>
+	          </div>
+        </div>
+      </section>
+
+	      <section class="section" id="publications">
+		        <div class="pub-header">
+		          <h2>Products</h2>
+		          <div class="pub-controls" role="group" aria-label="Publication view">
+	            <button class="pub-toggle" type="button" data-mode="date" aria-pressed="false">
+	              Show all by date
+	            </button>
+	          </div>
+	        </div>
+        <nav class="pub-nav" aria-label="Publication filters"></nav>
+        <div id="pub-content" class="pub-content" aria-live="polite"></div>
+      </section>
+	    </main>
+	  </div>
+	
+	  <footer class="footer">
+	    <div class="footer-inner">Last updated: February 9, 2026</div>
+	  </footer>
+
+	    <script src="media.js"></script>
+	    <script src="media-controls.js"></script>
+	    <script src="talks-controls.js"></script>
+	    <script src="publications.js"></script>
+	    <script src="cursor-effect.js"></script>
+	  </body>
+</html>
